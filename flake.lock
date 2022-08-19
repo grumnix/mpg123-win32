@@ -45,7 +45,6 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "mpg123_src": "mpg123_src",
         "nixpkgs": "nixpkgs",
         "tinycmmc": "tinycmmc"
@@ -53,9 +52,7 @@
     },
     "tinycmmc": {
       "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils",
         "nixpkgs": [
           "nixpkgs"
         ]
